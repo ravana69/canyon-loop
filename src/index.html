@@ -1,0 +1,9 @@
+<div>
+  <svg viewBox="0 0 400 400" preserveAspectRatio="xMidYMax slice">
+    <g class="stage"></g>
+    <filter id='noise'>
+      <feTurbulence type='fractalNoise' baseFrequency='2' numOctaves='4' stitchTiles='stitch'/>
+    </filter>
+    <rect class="noiseRect" fill="#aaa" width="400" height="400" filter="url(#noise)" style="mix-blend-mode:overlay" />
+  </svg>
+</div>
